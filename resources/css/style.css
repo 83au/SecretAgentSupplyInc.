@@ -24,6 +24,7 @@ h2 {
 
 header {
   background: black;
+  padding: 0.66rem 0;
 }
 
 img {
@@ -34,5 +35,34 @@ img {
 
 header h2 {
   display: inline-block;
-  margin: 0.66rem 1rem;
+  margin-left: 1rem;
+}
+
+
+/* Main Banner */
+
+.main-banner {
+  height: 25rem;
+  background-image: url("../images/moto.jpg");
+  background-size: cover;
+}
+
+.featured {
+  width: 20rem;
+  background: black;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.featured h2 {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  line-height: 1.3em;
 }
