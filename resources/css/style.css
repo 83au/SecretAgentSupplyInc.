@@ -113,10 +113,19 @@ section .site-container {
   border: 4px solid black;
 }
 
-.gadget img {
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 9rem;
   width: auto;
-  margin: 2rem;
+  margin: 2rem 1rem;
+}
+
+.product img {
+  max-width: 60%;
+  height: auto;
 }
 
 .gadget span {
@@ -158,4 +167,11 @@ footer {
 
 footer span {
   color: white;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+
 }
