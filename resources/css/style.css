@@ -117,7 +117,7 @@ section .site-container {
 .gadget img {
   height: 9rem;
   width: auto;
-  margin: 2rem 0;
+  margin: 2rem;
 }
 
 .gadget span {
@@ -126,4 +126,23 @@ section .site-container {
   text-align: center;
   width: 100%;
   padding: 0.5rem 0;
+}
+
+
+/* Location & Hours */
+
+.location-hours {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  color: white;
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
 }
