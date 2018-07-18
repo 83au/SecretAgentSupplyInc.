@@ -93,6 +93,10 @@ a {
   color: white;
 }
 
+#menu {
+  display: none;
+}
+
 
 /* Product Grid */
 
@@ -117,7 +121,6 @@ section .site-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   height: 9rem;
   width: auto;
   margin: 2rem 1rem;
@@ -173,5 +176,29 @@ footer span {
 /* Media Queries */
 
 @media only screen and (max-width: 1024px) {
-
+  .featured h2 {
+  font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  nav .site-container {
+    justify-content: center;
+  }
+  .menu-item {
+    display: none;
+  }
+  #menu {
+    display: inline;
+  }
+  .thermal {
+    display: none;
+  }
+  .gadget {
+    width: 47%;
+  }
+  .product img {
+    max-width: 50%;
+    height: auto;
+  }
 }
