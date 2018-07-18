@@ -58,8 +58,7 @@ header h2 {
 .featured {
   width: 20rem;
   background: black;
-  padding-top: 2rem;
-  padding-left: 3rem;
+  padding: 2rem 3rem;
   position: relative;
   top: 9rem;
 }
