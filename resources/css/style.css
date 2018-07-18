@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica;
 }
 
 h2 {
@@ -65,4 +65,22 @@ h1 {
   font-weight: bold;
   color: white;
   line-height: 1.3em;
+}
+
+
+/* Navigation Bar */
+
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+nav .site-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
