@@ -207,5 +207,30 @@ footer span {
 }
 
 @media only screen and (max-width: 470px) {
-
+  .site-container {
+    width: 480px;
+  }
+  .main-banner {
+    height: 15rem;
+  }
+  .featured {
+    width: 97.5%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+  .featured h2 {
+    font-size: 0.77rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .gadget {
+    display: none;
+  }
+  #pen {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
