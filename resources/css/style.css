@@ -175,6 +175,8 @@ footer span {
 
 /* Media Queries */
 
+  /*  Tablet */
+
 @media only screen and (max-width: 1024px) {
   .site-container {
     width: 752px;
@@ -206,9 +208,11 @@ footer span {
   }
 }
 
+  /* Mobile */
+
 @media only screen and (max-width: 470px) {
   .site-container {
-    width: 470px;
+    max-width: 470px;
   }
   .main-banner {
     height: 15rem;
