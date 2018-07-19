@@ -176,6 +176,9 @@ footer span {
 /* Media Queries */
 
 @media only screen and (max-width: 1024px) {
+  .site-container {
+    width: 752px;
+  }
   .featured h2 {
   font-size: 0.8rem;
   }
@@ -201,4 +204,8 @@ footer span {
     max-width: 50%;
     height: auto;
   }
+}
+
+@media only screen and (max-width: 470px) {
+
 }
