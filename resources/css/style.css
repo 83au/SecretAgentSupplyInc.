@@ -208,13 +208,13 @@ footer span {
 
 @media only screen and (max-width: 470px) {
   .site-container {
-    width: 480px;
+    width: 470px;
   }
   .main-banner {
     height: 15rem;
   }
   .featured {
-    width: 97.5%;
+    width: 100%;
     padding: 1rem 2rem;
     top: 10rem;
   }
@@ -240,5 +240,8 @@ footer span {
   .info {
     width: 90%;
     margin-bottom: 0.5rem;
+  }
+  footer .site-container {
+    text-align: center;
   }
 }
