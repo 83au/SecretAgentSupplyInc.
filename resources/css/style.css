@@ -233,4 +233,12 @@ footer span {
     width: 90%;
     margin: 0 auto;
   }
+  .location-hours {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
 }
